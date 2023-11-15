@@ -6,3 +6,4 @@ export { default as Contact } from "./Layouts/Contact";
 
 export { default as Header } from "./Components/Header";
 export { default as Navigation } from "./Components/Navigation";
+export { default as ParticlesContainer } from "./Components/ParticlesContainer";

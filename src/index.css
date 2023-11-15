@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,500;0,600;1,600&display=swap");
 
+/* Particles */
+.tsparticles {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -100,7 +109,7 @@ body {
   margin-left: 5%;
   color: #fff;
 }
-.text-container .text.second-text::before {
+.text-container .text.second-text::after {
   content: "";
   position: absolute;
   top: 0;
@@ -108,8 +117,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: #121212;
-  border-left: 2px solid #4070f4;
-  animation: type 4s steps(12) infinite;
+  animation: show 4s steps(12) infinite;
 }
 .intro a {
   display: flex;
@@ -124,19 +132,32 @@ body {
   background: #fff1;
 }
 .intro a:hover {
+  cursor: pointer;
   transform: scale(1.03);
 }
 
-@keyframes type {
+@keyframes show {
   40%,
   60% {
-    left: 100%;
+    opacity: 0;
   }
   100% {
-    left: 0;
+    opacity: 1;
   }
 }
 
+/* Me Div */
+.me {
+  position: relative;
+  display: flex;
+  align-items: end;
+}
+.me img {
+  width: 100%;
+  opacity: 1;
+  filter: drop-shadow(10px 10px 10px #4070f4) brightness(0.9);
+  transform: translateY(10px);
+}
 /* Mobile */
 @media only screen and (max-width: 400px) {
   .header {
@@ -160,6 +181,7 @@ body {
     top: auto;
     bottom: 0;
     padding: 0;
+    background: #121212;
   }
   .navigation ul {
     flex-direction: row;
@@ -195,6 +217,9 @@ body {
   .intro .text-container {
     overflow-x: hidden;
   }
+  .intro .catchphrase {
+    margin: 0;
+  }
   .intro .text-container .text {
     font-size: 30px;
   }
@@ -204,6 +229,10 @@ body {
   }
   .intro a {
     margin: 20px auto;
+  }
+  /* Me */
+  .me img {
+    transform: translateY(-60px);
   }
 }
 

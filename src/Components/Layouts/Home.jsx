@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { ParticlesContainer } from "../";
 
 const Home = () => {
   useEffect(() => {
@@ -26,6 +27,7 @@ const Home = () => {
 
   return (
     <div id="home-section">
+      <ParticlesContainer sx={{ zIndex: 10 }} />
       <div className="intro">
         <p className="name">Renato L. Dulog</p>
         <div className="text-container">
@@ -37,6 +39,9 @@ const Home = () => {
           <i className="fa-solid fa-briefcase" />
           <p>Recent Works</p>
         </a>
+      </div>
+      <div className="me">
+        <img src="images/me.png" alt="me" />
       </div>
     </div>
   );
