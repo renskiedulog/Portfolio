@@ -148,7 +148,6 @@ body {
 
 /* Me Div */
 .me {
-  position: relative;
   display: flex;
   align-items: end;
 }
@@ -156,10 +155,19 @@ body {
   width: 100%;
   opacity: 1;
   filter: drop-shadow(10px 10px 10px #4070f4) brightness(0.9);
-  transform: translateY(10px);
+  transform: translateY(40px);
 }
+/* Computer Canvas */
+#works-section {
+  position: relative;
+  height: 100vh;
+}
+.computer-canvas {
+  scale: .7;
+}
+
 /* Mobile */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .header {
     display: block;
     text-align: center;
@@ -186,21 +194,24 @@ body {
   .navigation ul {
     flex-direction: row;
     justify-content: center;
-    padding: 0 20px;
   }
   .navigation ul a {
     /*  */
-    padding: 20px;
+    padding: 23px 20px;
     border-radius: 50%;
-    margin: auto;
     font-size: 20px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .navigation ul a:hover {
     background: transparent;
   }
   .navigation ul a.active {
-    background: #121212;
-    transform: translateY(-50%);
+    background: #fff1 !important;
+    border-radius: 0;
   }
 
   /* Intro */
@@ -232,7 +243,9 @@ body {
   }
   /* Me */
   .me img {
-    transform: translateY(-60px);
+    position: absolute;
+    bottom: 0;
+    transform: translateY(10px);
   }
 }
 

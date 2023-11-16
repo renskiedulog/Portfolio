@@ -12,31 +12,31 @@ const Navigation = () => {
       <ul>
         <a
           href="/"
-          className={activePaths.includes(currentPath) ? "active" : ""}
+          className={activePaths[0] === currentPath ? "active" : ""}
         >
           <i className="fa-solid fa-house fa-fw"></i>
         </a>
         <a
           href="/profile"
-          className={activePaths.includes(currentPath) ? "active" : ""}
+          className={activePaths[1] === currentPath ? "active" : ""}
         >
           <i className="fa-solid fa-id-card fa-fw"></i>
         </a>
         <a
           href="/works"
-          className={activePaths.includes(currentPath) ? "active" : ""}
+          className={activePaths[2] === currentPath ? "active" : ""}
         >
           <i className="fa-solid fa-briefcase fa-fw"></i>
         </a>
         <a
           href="/testimonials"
-          className={activePaths.includes(currentPath) ? "active" : ""}
+          className={activePaths[3] === currentPath ? "active" : ""}
         >
           <i className="fa-solid fa-person-circle-check fa-fw"></i>
         </a>
         <a
           href="/contact"
-          className={activePaths.includes(currentPath) ? "active" : ""}
+          className={activePaths[4] === currentPath ? "active" : ""}
         >
           <i className="fa-solid fa-envelopes-bulk fa-fw"></i>
         </a>

@@ -5,11 +5,12 @@ import { Home, Info, Contact, Testimonials, Works, Header, Navigation } from './
 
 function App() {
   return (
-    <BrowserRouter basename='Portfolio'>
+    <BrowserRouter>
       <Header />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/profile" exact element={<Info />} />
+        <Route path="/works" exact element={<Works />} />
       </Routes>
       <Navigation />
     </BrowserRouter>
