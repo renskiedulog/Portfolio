@@ -158,12 +158,14 @@ body {
   transform: translateY(40px);
 }
 /* Computer Canvas */
-#works-section {
+#works-section,
+.info-container {
   position: relative;
-  height: 100vh;
+  height: 90vh;
 }
 .computer-canvas {
-  transform: translate(-300px, 0px);
+  position: absolute;
+  top: 0;
 }
 
 /* Mobile */

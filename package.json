@@ -5,6 +5,8 @@
   "dependencies": {
     "@react-three/drei": "^9.88.16",
     "@react-three/fiber": "^8.15.11",
+    "@types/three": "0.152.1",
+    "leva": "^0.9.35",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
