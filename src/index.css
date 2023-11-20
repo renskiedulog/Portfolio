@@ -155,7 +155,7 @@ body {
   width: 100%;
   opacity: 1;
   filter: drop-shadow(10px 10px 10px #4070f4) brightness(0.9);
-  transform: translateY(40px);
+  transform: translateY(60px);
 }
 /* Computer Canvas */
 #works-section,
@@ -164,9 +164,141 @@ body {
   height: 90vh;
 }
 .computer-canvas {
-  position: absolute;
+  position: absolute !important;
   top: 0;
 }
+
+/* Works */
+.color-first {
+  color: #8c51df;
+}
+.color-first.border {
+  border: 3px solid #8c51df !important;
+}
+.color-first.background {
+  background: #8c51df !important;
+}
+.color-second {
+  color: #4070f4;
+}
+.color-second.border {
+  border: 3px solid #4070f4 !important;
+}
+.color-second.background {
+  background: #4070f4 !important;
+}
+.color-third {
+  color: orange;
+}
+.color-third.border {
+  border: 3px solid orange !important;
+}
+.color-third.background {
+  background: orange !important;
+}
+
+.works-container {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+.works-container .parent {
+  width: 350px;
+  padding: 20px;
+  perspective: 1000px;
+}
+
+.works-container .parent .card {
+  padding: 10px;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  width: 100%;
+  box-shadow: rgba(142, 142, 142, 0.3) 10px 20px 30px -10px;
+  transition: all 0.5s ease-in-out;
+}
+.works-container .parent .card:hover {
+  background-position: -100px 100px, -100px 100px;
+  transform: rotate3d(0.5, 1, 0, 30deg) scale(1.05);
+}
+
+.works-container .parent .content-box {
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease-in-out;
+  padding: 60px 25px 25px 25px;
+  transform-style: preserve-3d;
+  border-radius: 5px;
+}
+.works-container .parent .content-box:hover {
+  background-position: center;
+  background-size: cover;
+}
+.works-container .parent.first .content-box {
+  background-image: url('../public/works/animesensei.png');
+}
+.works-container .parent.first .content-box:hover {
+  background-image: url('../public/works/animesensei-hover.png');
+}
+.works-container .parent.second .content-box {
+  background-image: url('../public/works/portfolio.png');
+}
+.works-container .parent.second .content-box:hover {
+  background-image: url('../public/works/animesensei-hover.png');
+}
+.works-container .parent.third .content-box {
+    background-image: url('../public/works/mangasensei.png');
+}
+.works-container .parent.third .content-box:hover {
+  background-image: url('../public/works/mangasensei-hover.png');
+}
+
+.works-container .parent .content-box .card-title {
+  display: inline-block;
+  color: white;
+  text-shadow: 3px 1px 3px #000;
+  font-size: 25px;
+  font-weight: 900;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 50px);
+}
+
+.works-container .parent .content-box .card-title:hover {
+  transform: translate3d(0px, 0px, 60px);
+}
+
+.works-container .parent .content-box .card-content {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  text-shadow: 10px 3px 10px #000;
+  color: #f2f2f2;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 30px);
+}
+
+.works-container .parent .content-box .card-content:hover {
+  transform: translate3d(0px, 0px, 60px);
+}
+
+.works-container .parent .content-box .see-more {
+  cursor: pointer;
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 9px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #fff !important;
+  background: white;
+  padding: 0.5rem 0.7rem;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 20px);
+}
+
+.works-container .parent .content-box .see-more:hover {
+  transform: translate3d(0px, 0px, 60px);
+}
+ 
 
 /* Mobile */
 @media only screen and (max-width: 500px) {
