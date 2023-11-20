@@ -163,7 +163,7 @@ body {
   height: 100vh;
 }
 .computer-canvas {
-  scale: .7;
+  transform: translate(-300px, 0px);
 }
 
 /* Mobile */
