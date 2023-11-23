@@ -1,45 +1,40 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
-  // Get the current path from the window location
   const currentPath = window.location.pathname;
 
-  // Define the paths that should have the "active" class
-  const activePaths = ["/", "/profile", "/works", "/testimonials", "/contact"];
+  const activePaths = ["/", "/profile", "/work", "/testimonial", "/contact"];
 
   return (
     <div className="navigation">
       <ul>
-        <a
-          href="/"
-          className={activePaths[0] === currentPath ? "active" : ""}
-        >
+        <Link to="/" className={activePaths[0] === currentPath ? "active" : ""}>
           <i className="fa-solid fa-house fa-fw"></i>
-        </a>
-        <a
-          href="/profile"
+        </Link>
+        <Link
+          to="/profile"
           className={activePaths[1] === currentPath ? "active" : ""}
         >
           <i className="fa-solid fa-id-card fa-fw"></i>
-        </a>
-        <a
-          href="/works"
+        </Link>
+        <Link
+          to="/work"
           className={activePaths[2] === currentPath ? "active" : ""}
         >
           <i className="fa-solid fa-briefcase fa-fw"></i>
-        </a>
-        <a
-          href="/testimonials"
+        </Link>
+        <Link
+          to="/testimonial"
           className={activePaths[3] === currentPath ? "active" : ""}
         >
           <i className="fa-solid fa-person-circle-check fa-fw"></i>
-        </a>
-        <a
-          href="/contact"
+        </Link>
+        <Link
+          to="/contact"
           className={activePaths[4] === currentPath ? "active" : ""}
         >
           <i className="fa-solid fa-envelopes-bulk fa-fw"></i>
-        </a>
+        </Link>
       </ul>
     </div>
   );

@@ -1,0 +1,50 @@
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  min-height: 60px;
+  justify-content: space-around;
+}
+.header p {
+  font-size: clamp(20px, 3vw, 30px);
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+.header .socials-btn i {
+  margin: 0 3px;
+  font-size: clamp(15px, 3vw, 20px);
+}
+.header .socials-btn {
+  margin: 10px 0;
+}
+
+/* Navigation Side */
+.navigation {
+  position: fixed;
+  right: 3%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff1;
+  padding: 10px;
+  border-radius: 20px;
+  z-index: 200;
+}
+.navigation ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navigation ul a {
+  padding: 8px 10px;
+  margin: 2px 0;
+  border-radius: 10px;
+  font-size: clamp(15px, 3vw, 18px);
+}
+.navigation ul a:hover {
+  background: #fff2;
+}
+.navigation ul a.active {
+  background: #fff2;
+}

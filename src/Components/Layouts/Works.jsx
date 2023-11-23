@@ -4,48 +4,116 @@ const Works = () => {
   return (
     <div id="works-section">
       <ComputerCanvas />
-      <div class="works-container">
-        <div class="parent first">
-          <div class="card color-first border">
-            <div class="content-box">
-              <span class="card-title">AnimeSensei</span>
-              <p class="card-content">
-                Anime Website Using React / MUI / Gogoanime API.
+      <div className="works-container">
+        <div className="card">
+          <div className="top-section">
+            <a
+              target="_blank"
+              href="https://renskiedulog.github.io/AnimeSensei"
+              className="link"
+            >
+              Check Website
+            </a>
+            <div className="image first"></div>
+            <div className="border"></div>
+            <div className="icons">
+              <div className="logo">
+                <p>
+                  <span className="react">React</span> /{" "}
+                  <span className="mui">MUI</span> /{" "}
+                  <span className="api">API</span>
+                </p>
+              </div>
+              <div className="social-media">
+                <i className="fa-brands fa-discord fa-fw" />
+                <i className="fa-brands fa-github fa-fw" />
+                <i className="fa-brands fa-linkedin fa-fw" />
+              </div>
+            </div>
+          </div>
+          <div className="bottom-section">
+            <span className="title">AnimeSensei</span>
+            <div className="row row1">
+              <p className="description">
+                AnimeSensei is a FREE and AD FREE website for animes. Enjoy an
+                uninterrupted watching of your favorite animes in AnimeSensei.
               </p>
-              <span class="see-more color-first background">See More</span>
+              <div className="info">
+                <i
+                  className="fa-solid fa-circle-info"
+                  title="Consumet API may sometimes be down and unable to receive HTTP Requests. The website may not display some content until the API servers are fixed."
+                />
+              </div>
             </div>
           </div>
         </div>
-        <div class="parent second">
-          <div class="card color-second border">
-            <div class="content-box">
-              <span class="card-title">Portfolio</span>
-              <p class="card-content">
-                Anime Website Using React / MUI / Gogoanime API.
+        <div className="card">
+          <div className="top-section">
+            <a href="#" className="link">
+              Check Website
+            </a>
+            <div className="image second"></div>
+            <div className="border"></div>
+            <div className="icons">
+              <div className="logo">
+                <p>
+                  <span className="react">React</span> /{" "}
+                  <span className="mui">MUI</span> /{" "}
+                  <span className="api">API</span>
+                </p>
+              </div>
+              <div className="social-media">
+                <i className="fa-brands fa-discord fa-fw" />
+                <i className="fa-brands fa-github fa-fw" />
+                <i className="fa-brands fa-linkedin fa-fw" />
+              </div>
+            </div>
+          </div>
+          <div className="bottom-section">
+            <span className="title">MangaSensei</span>
+            <div className="row row1">
+              <p className="description">
+                MangaSensei is a FREE and AD FREE website for mangas. Enjoy an
+                uninterrupted reading of your favorite mangas in MangaSensei.
               </p>
-              <span class="see-more color-second background">See More</span>
+              <div className="info">
+                <i
+                  className="fa-solid fa-circle-info"
+                  title="Due to MangaDex API's CORS Policy, the website is unable to show any content from any hosting domains. The only way to see content would be cloning the website and running it to your localhost."
+                />
+              </div>
             </div>
           </div>
         </div>
-        <div class="parent third">
-          <div class="card color-third border">
-            <div class="content-box">
-              <span class="card-title orange">MangaSensei</span>
-              <p class="card-content orange">
-                Anime Website Using React / MUI / Gogoanime API.
-              </p>
-              <span class="see-more color-third background">See More</span>
+        <div className="card">
+          <div className="top-section">
+            <a href="#" className="link">
+              Check Website
+            </a>
+            <div className="image third"></div>
+            <div className="border"></div>
+            <div className="icons">
+              <div className="logo">
+                <p>
+                  <span className="react">React</span> /{" "}
+                  <span className="mui">CSS</span> /{" "}
+                  <span className="api">3 JS</span>
+                </p>
+              </div>
+              <div className="social-media">
+                <i className="fa-brands fa-discord fa-fw" />
+                <i className="fa-brands fa-github fa-fw" />
+                <i className="fa-brands fa-linkedin fa-fw" />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="parent">
-          <div class="card color-one border">
-            <div class="content-box">
-              <span class="card-title">MangaSensei</span>
-              <p class="card-content">
-                Anime Website Using React / MUI / Gogoanime API.
+          <div className="bottom-section">
+            <span className="title">Personal Portfolio</span>
+            <div className="row row1">
+              <p className="description">
+                My Personal Portofolio website created using React / Three JS /
+                TsParticles and Vanilla CSS.
               </p>
-              <span class="see-more color-one background">See More</span>
             </div>
           </div>
         </div>

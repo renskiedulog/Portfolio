@@ -1,0 +1,191 @@
+.works-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.works-container .card {
+  z-index: 20;
+  width: 230px;
+  border-radius: 20px;
+  background: #1b233d;
+  padding: 5px;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.works-container .card:hover {
+  transform: scale(1.05);
+}
+
+.works-container .card .top-section {
+  height: clamp(120px, 10vw, 200px);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+/* LINK */
+.works-container .card .top-section .link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) scale(0);
+  z-index: 100;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  transition: transform 0.2s ease-in;
+  text-align: center;
+}
+.works-container .card:hover .top-section .link {
+  transform: translateX(-50%) scale(1) !important;
+}
+
+/* IMAGES */
+.works-container .card .top-section .image {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 100%;
+  border-radius: 10px;
+  transition: background 0.3s ease-in;
+}
+.works-container .card:hover .top-section .image {
+  filter: brightness(0.6);
+}
+.works-container .card .top-section .image.first {
+  background: url("../../public/works/animesensei.png") center;
+  background-size: cover;
+}
+.works-container .card:hover .top-section .image.first {
+  background: url("../../public/works/animesensei-hover.png") center;
+  background-size: cover;
+}
+.works-container .card .top-section .image.second {
+  background: url("../../public/works/mangasensei.png") center;
+  background-size: cover;
+}
+.works-container .card:hover .top-section .image.second {
+  background: url("../../public/works/mangasensei-hover.png") center;
+  background-size: cover;
+}
+.works-container .card .top-section .image.third {
+  background: url("../../public/works/portfolio.png") center;
+  background-size: cover;
+}
+.works-container .card:hover .top-section .image.third {
+  background: url("../../public/works/portfolio-hover.png") center;
+  background-size: cover;
+}
+
+.works-container .card .top-section .border {
+  border-bottom-right-radius: 10px;
+  height: 30px;
+  width: 130px;
+  background: #1b233d;
+  position: relative;
+  transform: skew(-40deg);
+  box-shadow: -10px -10px 0 0 #1b233d;
+}
+
+.works-container .card .top-section .border::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  right: -15px;
+  background: rgba(255, 255, 255, 0);
+  border-top-left-radius: 10px;
+  box-shadow: -5px -5px 0 2px #1b233d;
+}
+
+.works-container .card .top-section::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: rgba(255, 255, 255, 0);
+  height: 15px;
+  width: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: -5px -5px 0 2px #1b233d;
+}
+
+.works-container .card .top-section .icons {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.works-container .card .top-section .icons .logo {
+  font-size: clamp(12px, 1.5vw, 15px);
+  height: 100%;
+  padding: 5px 0 7px 10px;
+  display: flex;
+}
+.works-container .card .top-section .icons .logo .react {
+  color: aquamarine;
+}
+.works-container .card .top-section .icons .logo .mui {
+  color: cadetblue;
+}
+.works-container .card .top-section .icons .logo .api {
+  color: orange;
+}
+
+.works-container .card .top-section .icons .logo .top-section {
+  height: 100%;
+}
+
+.works-container .card .top-section .icons .social-media {
+  font-size: clamp(8px, 1vw, 15px);
+  padding: 8px;
+  display: flex;
+  gap: 7px;
+}
+
+.works-container .card.first .top-section .icons .social-media i {
+  height: 100%;
+  color: #fff;
+}
+
+.works-container .card .top-section .icons .social-media i:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.works-container .card .bottom-section {
+  padding: 10px 5px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.works-container .card .bottom-section .title {
+  display: block;
+  font-size: clamp(12px, 1.5vw, 20px);
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+.works-container .card .bottom-section .info {
+  margin-top: 5px;
+  text-align: right;
+  font-size: clamp(12px, 1vw, 18px);
+}
+
+.works-container .card .bottom-section .row {
+  margin-top: 5px;
+}
+.works-container .card .bottom-section .row p {
+  text-align: center;
+  font-size: clamp(8px, 1vw, 12px);
+  letter-spacing: 0.7px;
+}

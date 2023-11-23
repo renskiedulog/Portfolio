@@ -1,0 +1,118 @@
+/* Mobile */
+@media only screen and (max-width: 500px) {
+  .header {
+    display: block;
+    text-align: center;
+  }
+  .header p {
+    font-size: 40px;
+  }
+  .header .socials-btn i {
+    font-size: 150%;
+    margin: 0 5px;
+  }
+
+  /* Navigation */
+  .navigation {
+    width: 100%;
+    right: 0;
+    border-radius: 0;
+    transform: none;
+    top: auto;
+    bottom: 0;
+    padding: 0;
+    background: #121212;
+  }
+  .navigation ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navigation ul a {
+    /*  */
+    padding: 23px 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navigation ul a:hover {
+    background: transparent;
+  }
+  .navigation ul a.active {
+    background: #fff1 !important;
+    border-radius: 0;
+  }
+
+  /* Intro */
+  #home-section {
+    display: block;
+    text-align: center;
+  }
+  .intro {
+    margin: 15% 0;
+  }
+  .intro .name {
+    font-size: 45px;
+  }
+  .intro .text-container {
+    overflow-x: hidden;
+  }
+  .intro .catchphrase {
+    margin: 0;
+  }
+  .intro .text-container .text {
+    font-size: 30px;
+  }
+  .intro .catchphrase {
+    padding-left: 0;
+    margin-top: 10px;
+  }
+  .intro a {
+    margin: 20px auto;
+  }
+  /* Me */
+  .me img {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(30px);
+  }
+
+  /* Works Container */
+  .works-container {
+    flex-wrap: wrap !important;
+    padding: 10px !important;
+    gap: 10px !important;
+  }
+  .works-container .card {
+    width: 150px !important;
+    border-radius: 10px !important;
+  }
+  .works-container .card .top-section .border {
+    height: 30px;
+    width: 200px !important;
+    background: #1b233d;
+    position: relative;
+    box-shadow: -10px -10px 0 0 #1b233d;
+    border-radius: 0 !important;
+  }
+  .works-container .card .top-section .image {
+    border-radius: 10px !important;
+  }
+  .works-container .card .top-section .icons .logo {
+    font-size: 10px !important;
+    padding-left: 2px !important;
+  }
+  #works-section .computer-canvas {
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  /* Works Container */
+  .works-container {
+    flex-wrap: nowrap;
+  }
+}

@@ -35,7 +35,7 @@ const Home = () => {
           <span className="text second-text"></span>
         </div>
         <p className="catchphrase">Working ideas to reality.</p>
-        <a href="#">
+        <a href="/works">
           <i className="fa-solid fa-briefcase" />
           <p>Recent Works</p>
         </a>
