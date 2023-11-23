@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.79d78ddb.css",
-    "main.js": "/static/js/main.5ee4f7b5.js",
-    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
-    "static/media/animesensei.png": "/static/media/animesensei.98b4ab962ed3ee808b6b.png",
-    "static/media/mangasensei.png": "/static/media/mangasensei.4f6c4c9e712a96726f15.png",
-    "static/media/portfolio.png": "/static/media/portfolio.8ef1f2e3530696d5ebbd.png",
-    "static/media/mangasensei-hover.png": "/static/media/mangasensei-hover.6f1115a036cc5976ec90.png",
-    "static/media/animesensei-hover.png": "/static/media/animesensei-hover.1772a0de7e6c6136f1df.png",
-    "static/media/portfolio-hover.png": "/static/media/portfolio-hover.13b2609f356f38a71b55.png",
+    "main.css": "/Portfolio/static/css/main.79d78ddb.css",
+    "main.js": "/Portfolio/static/js/main.5ee4f7b5.js",
+    "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/animesensei.png": "/Portfolio/static/media/animesensei.98b4ab962ed3ee808b6b.png",
+    "static/media/mangasensei.png": "/Portfolio/static/media/mangasensei.4f6c4c9e712a96726f15.png",
+    "static/media/portfolio.png": "/Portfolio/static/media/portfolio.8ef1f2e3530696d5ebbd.png",
+    "static/media/mangasensei-hover.png": "/Portfolio/static/media/mangasensei-hover.6f1115a036cc5976ec90.png",
+    "static/media/animesensei-hover.png": "/Portfolio/static/media/animesensei-hover.1772a0de7e6c6136f1df.png",
+    "static/media/portfolio-hover.png": "/Portfolio/static/media/portfolio-hover.13b2609f356f38a71b55.png",
     "index.html": "/index.html",
-    "main.79d78ddb.css.map": "/static/css/main.79d78ddb.css.map",
-    "main.5ee4f7b5.js.map": "/static/js/main.5ee4f7b5.js.map",
-    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+    "main.79d78ddb.css.map": "/Portfolio/static/css/main.79d78ddb.css.map",
+    "main.5ee4f7b5.js.map": "/Portfolio/static/js/main.5ee4f7b5.js.map",
+    "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79d78ddb.css",
-    "static/js/main.5ee4f7b5.js"
+    "/Portfolio/static/css/main.79d78ddb.css",
+    "/Portfolio/static/js/main.5ee4f7b5.js"
   ]
 }
