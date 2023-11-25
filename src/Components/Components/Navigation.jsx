@@ -17,7 +17,7 @@ const Navigation = () => {
   }, []);
 
   const currentPath = location.pathname;
-  const activePaths = ["/", "/profile", "/work", "/testimonial", "/contact"];
+  const activePaths = ["/", "/profile", "/works", "/testimonials", "/contacts"];
 
   return (
     <div className="navigation">
@@ -32,19 +32,19 @@ const Navigation = () => {
           <i className="fa-solid fa-id-card fa-fw"></i>
         </Link>
         <Link
-          to="/work"
+          to="/works"
           className={activePaths[2] === currentPath ? "active" : ""}
         >
           <i className="fa-solid fa-briefcase fa-fw"></i>
         </Link>
         <Link
-          to="/testimonial"
+          to="/testimonials"
           className={activePaths[3] === currentPath ? "active" : ""}
         >
           <i className="fa-solid fa-person-circle-check fa-fw"></i>
         </Link>
         <Link
-          to="/contact"
+          to="/contacts"
           className={activePaths[4] === currentPath ? "active" : ""}
         >
           <i className="fa-solid fa-envelopes-bulk fa-fw"></i>

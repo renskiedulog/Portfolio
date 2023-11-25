@@ -10,9 +10,9 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/profile" exact element={<Info />} />
-        <Route path="/work" exact element={<Works />} />
-        <Route path="/testimonial" exact element={<Testimonials />} />
-        <Route path="/contact" exact element={<Contact />} />
+        <Route path="/works" exact element={<Works />} />
+        <Route path="/testimonials" exact element={<Testimonials />} />
+        <Route path="/contacts" exact element={<Contact />} />
       </Routes>
       <Navigation />
     </BrowserRouter>
