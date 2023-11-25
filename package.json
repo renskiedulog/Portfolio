@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://renskiedulog.github.io/Portfolio",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.88.16",
