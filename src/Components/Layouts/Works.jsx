@@ -1,4 +1,5 @@
 import { ComputerCanvas } from "../";
+import { Link } from "react-router-dom";
 
 const Works = () => {
   return (
@@ -7,13 +8,13 @@ const Works = () => {
       <div className="works-container">
         <div className="card">
           <div className="top-section">
-            <a
+            <Link
               target="_blank"
-              href="https://renskiedulog.github.io/AnimeSensei"
+              to="https://renskiedulog.github.io/AnimeSensei"
               className="link"
             >
               Check Website
-            </a>
+            </Link>
             <div className="image first"></div>
             <div className="border"></div>
             <div className="icons">
@@ -49,9 +50,12 @@ const Works = () => {
         </div>
         <div className="card">
           <div className="top-section">
-            <a href="#" className="link">
+            <Link
+              to="https://renskiedulog.github.io/MangaSensei"
+              className="link"
+            >
               Check Website
-            </a>
+            </Link>
             <div className="image second"></div>
             <div className="border"></div>
             <div className="icons">
@@ -87,9 +91,12 @@ const Works = () => {
         </div>
         <div className="card">
           <div className="top-section">
-            <a href="#" className="link">
+            <Link
+              to="https://renskiedulog.github.io/Portfolio"
+              className="link"
+            >
               Check Website
-            </a>
+            </Link>
             <div className="image third"></div>
             <div className="border"></div>
             <div className="icons">

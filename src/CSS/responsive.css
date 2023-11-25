@@ -77,7 +77,7 @@
   .me img {
     position: absolute;
     bottom: 0;
-    transform: translateY(30px);
+    transform: translateY(100px);
   }
 
   /* Works Container */

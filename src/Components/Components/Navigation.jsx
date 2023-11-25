@@ -1,8 +1,22 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const Navigation = () => {
-  const currentPath = window.location.pathname;
+  const location = useLocation();
 
+  useEffect(() => {
+    const handleLocationChange = () => {
+      window.location.reload();
+    };
+
+    window.addEventListener("popstate", handleLocationChange);
+
+    return () => {
+      window.removeEventListener("popstate", handleLocationChange);
+    };
+  }, []);
+
+  const currentPath = location.pathname;
   const activePaths = ["/", "/profile", "/work", "/testimonial", "/contact"];
 
   return (
