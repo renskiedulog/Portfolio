@@ -1,0 +1,11 @@
+.animation-scroll {
+  animation: scroll 1s infinite alternate ease-in-out;
+}
+@keyframes scroll {
+  0% {
+    top: 30%;
+  }
+  100% {
+    top: 60%;
+  }
+}
