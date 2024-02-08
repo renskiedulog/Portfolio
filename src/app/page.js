@@ -1,7 +1,7 @@
-import NavBar from './../Components/NavBar';
-import Home from './../Components/Home';
-import About from './../Components/About';
-import Skills from '@/Components/Skills';
+import NavBar from './_Components/NavBar';
+import Home from './_Components/Home';
+import About from './_Components/About';
+import Skills from '@/app/_Components/Skills';
 
 export default function page() {
   return (
