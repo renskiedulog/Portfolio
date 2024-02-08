@@ -38,18 +38,18 @@ const BackgroundExp = () => {
           shown === 1 ? "block" : "hidden"
         }`}
       >
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 columns-3">
           <p>Web Development</p>
           <span>-</span>
-          <i class="fa-brands fa-html5 text-2xl"></i>
-          <i class="fa-brands fa-css3-alt text-2xl"></i>
-          <i class="fa-brands fa-js text-2xl"></i>
-          <i class="fa-brands fa-react text-2xl"></i>
+          <i className="fa-brands fa-html5 text-2xl"></i>
+          <i className="fa-brands fa-css3-alt text-2xl"></i>
+          <i className="fa-brands fa-js text-2xl"></i>
+          <i className="fa-brands fa-react text-2xl"></i>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 columns-3">
           <p>UI/UX Design</p>
           <span>-</span>
-          <i class="fa-brands fa-figma"></i>
+          <i className="fa-brands fa-figma"></i>
         </div>
       </div>
       <div
@@ -57,7 +57,7 @@ const BackgroundExp = () => {
           shown === 2 ? "block" : "hidden"
         }`}
       >
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 columns-3">
           <p>OJT</p>
           <span>-</span>
           <p className="font-semibold">WebriQ</p>
@@ -70,34 +70,26 @@ const BackgroundExp = () => {
           shown === 3 ? "block" : "hidden"
         }`}
       >
-        <div className="flex items-center gap-2">
+        <div className="grid grid-cols-[25%,45%,30%] items-center gap-2">
           <p>Elementary</p>
-          <span>-</span>
-          <p className="font-semibold text-center">
+          <p className="font-semibold">
             Pinamungajan Central Elementary School
           </p>
-          <span>-</span>
           <p>2009 - 2015</p>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="grid grid-cols-[25%,45%,30%] items-center gap-2">
           <p>Highschool</p>
-          <span>-</span>
           <p className="font-semibold">Pinamungajan National High School</p>
-          <span>-</span>
           <p>2015 - 2019</p>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="grid grid-cols-[25%,45%,30%] items-center gap-2">
           <p>Senior HS</p>
-          <span>-</span>
           <p className="font-semibold">Pinamungajan National High School</p>
-          <span>-</span>
           <p>2020 - 2022</p>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="grid grid-cols-[25%,45%,30%] items-center gap-2">
           <p>College</p>
-          <span>-</span>
           <p className="font-semibold">University Of San Carlos - CCT</p>
-          <span>-</span>
           <p>2022 - 2024</p>
         </div>
       </div>

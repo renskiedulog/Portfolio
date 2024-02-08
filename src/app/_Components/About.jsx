@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const About = () => {
@@ -9,25 +10,27 @@ const About = () => {
       </div>
       <div className="flex gap-5 mt-10 md:justify-around md:flex-row flex-col items-center">
         <div>
-          <img
-            src="https://picsum.photos/300/300"
+          <Image
+            src="/images/about.jpg"
             alt="my-picture"
-            className="w-70 h-70 rounded-xl"
+            height={400}
+            width={400}
+            className="rounded-xl about-me"
           />
         </div>
         <div className="md:w-1/2 w-10/12 md:my-0 my-2">
           <h1 className="md:text-lg font-medium">Hobbies And Likes</h1>
           <div className="flex gap-2">
             <div className="flex flex-col gap-1 text-lg items-center justify-center bg-white w-36 h-28 rounded-lg border border-[#0001]">
-              <i class="fa-solid fa-code"></i>
+              <i className="fa-solid fa-code"></i>
               <p>Coding</p>
             </div>
             <div className="flex flex-col gap-1 text-lg items-center justify-center bg-white w-36 h-28 rounded-lg border border-[#0001]">
-              <i class="fa-solid fa-gamepad"></i>
+              <i className="fa-solid fa-gamepad"></i>
               <p>Gaming</p>
             </div>
             <div className="flex flex-col gap-1 items-center text-lg justify-center bg-white w-36 h-28 rounded-lg border border-[#0001]">
-              <i class="fa-solid fa-cat"></i>
+              <i className="fa-solid fa-cat"></i>
               <p>Cats</p>
             </div>
           </div>

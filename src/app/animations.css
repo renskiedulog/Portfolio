@@ -1,11 +1,72 @@
 .animation-scroll {
   animation: scroll 1s infinite alternate ease-in-out;
 }
+
 @keyframes scroll {
   0% {
     top: 30%;
   }
   100% {
     top: 60%;
+  }
+}
+
+.animation-slide-left {
+  animation: slide-left 0.3s ease-in-out;
+}
+
+@keyframes slide-left {
+  0% {
+    left: -50%;
+  }
+  100% {
+    left: 0;
+    display: block;
+  }
+}
+
+/* Home Section */
+section#home.active .socials {
+  animation: slide-socials 0.7s ease-in;
+}
+
+section#home.active .me {
+  animation: pop 0.5s ease-in;
+}
+
+section#home.active .hero {
+  animation: slide-hero 0.5s ease-in;
+}
+
+@keyframes slide-hero {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-socials {
+  0% {
+    display: none;
+    left: -20%;
+  }
+  100% {
+    display: flex;
+    left: 5%;
+  }
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0;
+    scale: 0;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
   }
 }

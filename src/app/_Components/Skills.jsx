@@ -47,7 +47,7 @@ const Skills = () => {
           </div>
           <button className="my-5 rounded-xl gap-3 hover:scale-105 hover:brightness-105 transition cursor-pointer flex items-center bg-slate-700 text-white px-5 py-3">
             <p>Download CV</p>
-            <i class="fa-solid fa-id-card"></i>
+            <i className="fa-solid fa-id-card"></i>
           </button>
         </div>
 
