@@ -20,7 +20,7 @@ const NavBar = () => {
     const observerOptions = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.7, // Adjust the threshold as needed
+      threshold: 0.5, // Adjust the threshold as needed
     };
 
     const observer = new IntersectionObserver(
@@ -42,7 +42,6 @@ const NavBar = () => {
       if (entry.isIntersecting) {
         setActiveSection(entry.target.id);
         entry.target.classList.add("active");
-        console.log(entry.target);
       }
     });
   };
@@ -122,6 +121,7 @@ const NavBar = () => {
               ${activeSection === "home" ? "font-semibold bg-[#0001]" : ""}
               w-full py-2 text-center hover:scale-105
             `}
+            onClick={() => setToggle(false)}
           >
             Home
           </a>
@@ -131,6 +131,7 @@ const NavBar = () => {
               ${activeSection === "about" ? "font-semibold bg-[#0001]" : ""}
               w-full py-2 text-center hover:scale-105
             `}
+            onClick={() => setToggle(false)}
           >
             About
           </a>
@@ -140,6 +141,7 @@ const NavBar = () => {
               ${activeSection === "skills" ? "font-semibold bg-[#0001]" : ""}
               w-full py-2 text-center hover:scale-105
             `}
+            onClick={() => setToggle(false)}
           >
             Skills
           </a>
@@ -149,6 +151,7 @@ const NavBar = () => {
               ${activeSection === "services" ? "font-semibold bg-[#0001]" : ""}
               w-full py-2 text-center hover:scale-105
             `}
+            onClick={() => setToggle(false)}
           >
             Services
           </a>
@@ -158,6 +161,7 @@ const NavBar = () => {
               ${activeSection === "works" ? "font-semibold bg-[#0001]" : ""}
               w-full py-2 text-center hover:scale-105
             `}
+            onClick={() => setToggle(false)}
           >
             Works
           </a>
@@ -167,6 +171,7 @@ const NavBar = () => {
               ${activeSection === "contact" ? "font-semibold bg-[#0001]" : ""}
               w-full py-2 text-center hover:scale-105
             `}
+            onClick={() => setToggle(false)}
           >
             Contact
           </a>

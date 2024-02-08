@@ -70,3 +70,37 @@ section#home.active .hero {
     scale: 1;
   }
 }
+
+/* About */
+section#about.active .header {
+  animation: fade-in 0.7s ease-in;
+  opacity: 1;
+}
+
+section#about.active .about-me {
+  animation: pop 0.5s ease-in;
+  opacity: 1;
+}
+
+section#about.active .about-me-info {
+  animation: slide-right 0.3s ease-in;
+  opacity: 1;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
