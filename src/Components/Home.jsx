@@ -16,8 +16,8 @@ const Home = () => {
         <h1 className="md:text-5xl text-4xl font-bold my-2">Renato Dulog</h1>
         <p className="my-2">Web Developer / PN Student / CCT Student</p>
         <p className="my-2 opacity-80">
-          I'm a creative designer based in New York, and I'm very passionate and
-          dedicated to my work.
+          I&apos;m a creative designer based in New York, and I&apos;m very
+          passionate and dedicated to my work.
         </p>
         <button className="my-5 rounded-xl gap-3 hover:scale-105 hover:brightness-105 transition cursor-pointer flex items-center bg-slate-700 text-white px-5 py-3">
           <p>Say Hello</p>
