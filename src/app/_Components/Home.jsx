@@ -3,17 +3,17 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="w-full h-screen items-center justify-end flex-col-reverse flex md:flex-row relative active snap-start"
+      className="w-full h-screen items-center justify-end flex-col-reverse flex md:flex-row relative active"
     >
       {/* Socials */}
-      <div className="socials absolute flex flex-col top-[25%] md:top-1/2 md:translate-y-[-50%] left-[5%] justify-center max-w-10 items-center md:gap-5 gap-7 transition text-lg">
+      <div className="socials absolute flex md:flex-col flex-row top-[5.5rem] md:top-1/2 translate-x-[-50%] translate-y-[-50%] left-1/2 md:left-[5%] justify-center max-w-10 items-center md:gap-5 gap-7 transition text-lg">
         <i className="fa-brands fa-instagram cursor-pointer hover:scale-105 transition"></i>
         <i className="fa-brands fa-facebook-f cursor-pointer hover:scale-105 transition"></i>
         <i className="fa-brands fa-discord cursor-pointer hover:scale-105 transition"></i>
         <i className="fa-brands fa-github cursor-pointer hover:scale-105 transition"></i>
       </div>
       {/* Hero Description */}
-      <div className="hero md:w-5/12 w-10/12 md:ml-40">
+      <div className="hero md:w-5/12 w-10/12 md:ml-[15%]">
         <h1 className="md:text-5xl text-4xl font-bold my-2">Renato Dulog</h1>
         <p className="my-2">Web Developer / PN Student / CCT Student</p>
         <p className="my-2 opacity-80">

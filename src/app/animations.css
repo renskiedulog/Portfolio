@@ -12,10 +12,10 @@
 }
 
 .animation-slide-left {
-  animation: slide-left 0.3s ease-in-out;
+  animation: slide-absolute-left 0.3s ease-in-out;
 }
 
-@keyframes slide-left {
+@keyframes slide-absolute-left {
   0% {
     left: -50%;
   }
@@ -103,4 +103,50 @@ section#about.active .about-me-info {
   100% {
     transform: translate(0);
   }
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+/* Skills */
+section#skills.active .header {
+  animation: fade-in 0.5s ease-in;
+  opacity: 1;
+}
+
+section#skills.active .skills-info {
+  animation: slide-hero 0.5s ease-in;
+  opacity: 1;
+}
+
+section#skills.active .skills-rating {
+  animation: slide-right 0.5s ease-in;
+  opacity: 1;
+}
+
+/* Services */
+section#services.active .services button:nth-child(1) {
+  animation: slide-left 0.5s ease-in;
+  opacity: 1;
+}
+
+section#services.active .services button:nth-child(2) {
+  animation: pop 0.5s ease-in;
+  opacity: 1;
+}
+
+section#services.active .services button:nth-child(3) {
+  animation: slide-right 0.5s ease-in;
+  opacity: 1;
+}
+
+section#services.active .pop-up {
+  animation: pop 0.3s ease-in;
+  opacity: 1;
 }

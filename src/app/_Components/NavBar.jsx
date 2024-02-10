@@ -55,7 +55,7 @@ const NavBar = () => {
       <nav className="z-50 fixed w-full left-0 top-0 h-16 px-5 bg-[#f9f9f9] border-b border-[#0001]">
         <div className="flex md:justify-around justify-between px-3 items-center h-full">
           <a
-            href="#"
+            href="#home"
             className="md:text-xl text-base hover:scale-105 cursor-pointer transition"
           >
             Ren.
@@ -80,7 +80,7 @@ const NavBar = () => {
               Skills
             </a>
             <a
-              href="#"
+              href="#services"
               className={activeSection === "services" ? "font-semibold" : ""}
             >
               Services

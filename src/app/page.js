@@ -1,7 +1,8 @@
 import NavBar from './_Components/NavBar';
 import Home from './_Components/Home';
 import About from './_Components/About';
-import Skills from '@/app/_Components/Skills';
+import Skills from './_Components/Skills';
+import Services from './_Components/Services';
 
 export default function page() {
   return (
@@ -10,6 +11,7 @@ export default function page() {
       <Home />
       <About />
       <Skills />
+      <Services />
     </main>
   );
 }
