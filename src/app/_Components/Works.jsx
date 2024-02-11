@@ -40,8 +40,8 @@ const Works = () => {
                 }`}
               >
                 <p className="opacity-70">Stacks:</p>
-                {work?.stacks?.map((stack) => (
-                  <h1>{stack}</h1>
+                {work?.stacks?.map((stack, index) => (
+                  <h1 key={index}>{stack}</h1>
                 ))}
               </div>
               <div
