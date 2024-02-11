@@ -27,7 +27,8 @@
 
 /* Home Section */
 section#home.active .socials {
-  animation: slide-socials 0.7s ease-in;
+  animation: fade-in 1s ease-in;
+  opacity: 1;
 }
 
 section#home.active .me {
@@ -46,17 +47,6 @@ section#home.active .hero {
   100% {
     opacity: 1;
     transform: translateX(0);
-  }
-}
-
-@keyframes slide-socials {
-  0% {
-    display: none;
-    left: -20%;
-  }
-  100% {
-    display: flex;
-    left: 5%;
   }
 }
 
@@ -147,6 +137,22 @@ section#services.active .services button:nth-child(3) {
 }
 
 section#services.active .pop-up {
-  animation: pop 0.3s ease-in;
+  animation: pop 0.5s ease-in;
+  opacity: 1;
+}
+
+/* Works */
+section#works.active .header {
+  animation: fade-in 0.5s ease-in;
+  opacity: 1;
+}
+
+section#works.active .work div img {
+  animation: slide-left 0.5s ease-in;
+  opacity: 1;
+}
+
+section#works.active .work div div {
+  animation: slide-right 0.5s ease-in;
   opacity: 1;
 }

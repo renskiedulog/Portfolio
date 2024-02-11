@@ -86,7 +86,7 @@ const NavBar = () => {
               Services
             </a>
             <a
-              href="#"
+              href="#works"
               className={activeSection === "works" ? "font-semibold" : ""}
             >
               Works
@@ -146,7 +146,7 @@ const NavBar = () => {
             Skills
           </a>
           <a
-            href="#"
+            href="#services"
             className={`
               ${activeSection === "services" ? "font-semibold bg-[#0001]" : ""}
               w-full py-2 text-center hover:scale-105
@@ -156,7 +156,7 @@ const NavBar = () => {
             Services
           </a>
           <a
-            href="#"
+            href="#works"
             className={`
               ${activeSection === "works" ? "font-semibold bg-[#0001]" : ""}
               w-full py-2 text-center hover:scale-105
