@@ -20,6 +20,7 @@ const Works = () => {
               src={work?.image}
               height={250}
               width={500}
+              alt={`${work?.title}-${index}`}
               className="md:w-1/2 w-full max-h-[400px] h-[250px] rounded-lg shadow-md object-cover opacity-0"
             />
             <div
