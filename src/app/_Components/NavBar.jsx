@@ -92,7 +92,7 @@ const NavBar = () => {
               Works
             </a>
             <a
-              href="#"
+              href="#contact"
               className={activeSection === "contact" ? "font-semibold" : ""}
             >
               Contact
@@ -166,7 +166,7 @@ const NavBar = () => {
             Works
           </a>
           <a
-            href="#"
+            href="#contact"
             className={`
               ${activeSection === "contact" ? "font-semibold bg-[#0001]" : ""}
               w-full py-2 text-center hover:scale-105

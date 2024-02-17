@@ -65,7 +65,7 @@ const Works = () => {
                   className="rounded-md gap-2 text-base hover:scale-105 group hover:brightness-105 transition font-semibold cursor-pointer flex items-center bg-slate-700 text-white px-3 py-2"
                 >
                   <p>Live Demo</p>
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
             </div>

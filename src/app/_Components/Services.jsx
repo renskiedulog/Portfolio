@@ -84,7 +84,7 @@ const Services = () => {
               <div className="flex flex-col gap-2 py-3">
                 {displayed?.services?.map((service, index) => (
                   <div key={index} className="flex gap-2 items-center">
-                    <i class="fa-regular fa-circle-check text-lg text-[green]"></i>
+                    <i className="fa-regular fa-circle-check text-lg text-[green]"></i>
                     <p>{service}</p>
                   </div>
                 ))}

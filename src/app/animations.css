@@ -156,3 +156,19 @@ section#works.active .work div div {
   animation: slide-right 0.5s ease-in;
   opacity: 1;
 }
+
+/* Contact */
+section#contact.active .header {
+  animation: fade-in 0.5s ease-in;
+  opacity: 1;
+}
+
+section#contact.active div div:nth-child(1) {
+  animation: slide-left 0.5s ease-in;
+  opacity: 1;
+}
+
+section#contact.active div > div:nth-child(2) {
+  animation: slide-right 0.5s ease-in;
+  opacity: 1;
+}
