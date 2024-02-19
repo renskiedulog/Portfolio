@@ -123,7 +123,7 @@ const NavBar = () => {
             `}
             onClick={() => setToggle(false)}
           >
-            <i class="fa-solid fa-house"></i>
+            <i className="md:text-lg text-base fa-solid fa-house"></i>
             <p>Home</p>
           </a>
           <a
@@ -134,7 +134,7 @@ const NavBar = () => {
             `}
             onClick={() => setToggle(false)}
           >
-            <i class="fa-solid fa-user"></i>
+            <i className="md:text-lg text-base fa-solid fa-user"></i>
             <p>About</p>
           </a>
           <a
@@ -145,7 +145,7 @@ const NavBar = () => {
             `}
             onClick={() => setToggle(false)}
           >
-            <i class="fa-solid fa-id-card"></i>
+            <i className="md:text-lg text-base fa-solid fa-id-card"></i>
             <p>Skills</p>
           </a>
           <a
@@ -156,7 +156,7 @@ const NavBar = () => {
             `}
             onClick={() => setToggle(false)}
           >
-            <i class="fa-solid fa-briefcase"></i>
+            <i className="md:text-lg text-base fa-solid fa-briefcase"></i>
             <p>Services</p>
           </a>
           <a
@@ -167,7 +167,7 @@ const NavBar = () => {
             `}
             onClick={() => setToggle(false)}
           >
-            <i class="fa-solid fa-image"></i>
+            <i className="md:text-lg text-base fa-solid fa-image"></i>
             <p>Works</p>
           </a>
           <a
@@ -178,7 +178,7 @@ const NavBar = () => {
             `}
             onClick={() => setToggle(false)}
           >
-            <i class="fa-solid fa-address-book"></i>
+            <i className="md:text-lg text-base fa-solid fa-address-book"></i>
             <p>Contact</p>
           </a>
         </li>

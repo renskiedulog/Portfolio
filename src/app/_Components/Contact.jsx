@@ -2,7 +2,7 @@ import Form from "./Form";
 
 const Contact = () => {
   return (
-    <section id="contact" className="pt-5 w-full min-h-screen">
+    <section id="contact" className="md:pt-[4rem] pt-5 w-full min-h-screen">
       <div className="text-center py-3 header opacity-0">
         <h1 className="text-3xl font-semibold text-slate-700">Contact</h1>
         <p className="py-1 text-sm opacity-80">Need My Help?</p>

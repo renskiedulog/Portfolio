@@ -7,9 +7,15 @@ const Footer = () => {
         Renato Dulog.
       </a>
       <div className="flex md:gap-5 gap-3 justify-center font-medium text-slate-800">
-        <a href="#about">About</a>
-        <a href="#works">Works</a>
-        <a href="#services">Services</a>
+        <a href="#about" className="hover:font-semibold">
+          About
+        </a>
+        <a href="#works" className="hover:font-semibold">
+          Works
+        </a>
+        <a href="#services" className="hover:font-semibold">
+          Services
+        </a>
       </div>
       <div className="flex justify-center md:gap-5 gap-3">
         <a

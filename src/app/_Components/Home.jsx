@@ -6,24 +6,39 @@ const Home = () => {
       className="w-full min-h-screen items-center justify-end flex-col-reverse flex md:flex-row relative active md:translate-y-0 translate-y-[-2rem]"
     >
       {/* Socials */}
-      <div className="socials absolute flex lg:flex-col flex-row top-[5.5rem] lg:top-1/2 translate-x-[-50%] translate-y-[-50%] left-1/2 lg:left-[5%] justify-center opacity-0 max-w-10 items-center lg:gap-5 gap-7 text-lg">
-        <i className="fa-brands fa-instagram cursor-pointer hover:scale-105 transition"></i>
-        <i className="fa-brands fa-facebook-f cursor-pointer hover:scale-105 transition"></i>
-        <i className="fa-brands fa-discord cursor-pointer hover:scale-105 transition"></i>
-        <i className="fa-brands fa-github cursor-pointer hover:scale-105 transition"></i>
+      <div className="socials z-10 absolute flex lg:flex-col flex-row top-[4.5rem] lg:top-1/2 translate-x-[-50%] translate-y-[-50%] left-1/2 lg:left-[5%] justify-center opacity-0 max-w-10 items-center lg:gap-5 gap-7 text-xl">
+        <a
+          href="#"
+          className="fa-brands fa-google hover:scale-105 transition"
+        ></a>
+        <a
+          href="https://www.facebook.com/renatodulog.27"
+          className="fa-brands fa-facebook-f hover:scale-105 transition"
+        ></a>
+        <a
+          href="https://discordapp.com/users/renskiedulog#8212"
+          className="fa-brands fa-discord hover:scale-105 transition"
+        ></a>
+        <a
+          href="https://github.com/renskiedulog"
+          className="fa-brands fa-github hover:scale-105 transition"
+        ></a>
       </div>
       {/* Hero Description */}
       <div className="hero md:w-5/12 w-10/12 md:ml-[15%]">
         <h1 className="md:text-5xl text-4xl font-bold my-2">Renato Dulog</h1>
         <p className="my-2">Web Developer / PN Student / CCT Student</p>
         <p className="my-2 opacity-80">
-          I&apos;m a creative designer based in New York, and I&apos;m very
-          passionate and dedicated to my work.
+          I&apos;m a college student and a frontend developer based in Cebu
+          Philippines, and I&apos;m very passionate and dedicated to my work.
         </p>
-        <button className="my-5 rounded-xl gap-3 hover:scale-105 hover:brightness-105 transition cursor-pointer flex items-center bg-slate-700 text-white px-5 py-3">
+        <a
+          href="#contact"
+          className="my-5 w-max rounded-xl gap-3 hover:scale-105 hover:brightness-105 transition cursor-pointer flex items-center bg-slate-700 text-white px-5 py-3"
+        >
           <p>Say Hello</p>
           <i className="fa-regular fa-paper-plane"></i>
-        </button>
+        </a>
       </div>
       <Image
         src="/images/me.jpg"

@@ -2,7 +2,7 @@ import BackgroundExp from "./BackgroundExp";
 
 const Skills = () => {
   return (
-    <section id="skills" className="min-h-screen w-full pt-5">
+    <section id="skills" className="min-h-screen w-full md:pt-[4rem] pt-5">
       {/* Top */}
       <div className="text-center py-3 opacity-0 header">
         <h1 className="text-3xl font-semibold text-slate-700">Skills</h1>
@@ -45,10 +45,14 @@ const Skills = () => {
               </p>
             </div>
           </div>
-          <button className="my-5 rounded-xl gap-3 hover:scale-105 hover:brightness-105 transition cursor-pointer flex items-center bg-slate-700 text-white px-5 py-3">
-            <p>Download CV</p>
+          <a
+            href="/Resume.pdf"
+            target="_blank"
+            className="my-5 w-max rounded-xl gap-3 hover:scale-105 hover:brightness-105 transition cursor-pointer flex items-center bg-slate-700 text-white px-5 py-3"
+          >
+            <p>Read CV</p>
             <i className="fa-solid fa-id-card"></i>
-          </button>
+          </a>
         </div>
 
         {/* Right */}
