@@ -6,7 +6,7 @@ import { services } from "../constants";
 const Services = () => {
   const [displayed, setDisplayed] = useState(null);
   return (
-    <section id="services" className="min-h-screen pt-[4rem] w-full">
+    <section id="services" className="min-h-screen pt-5 w-full">
       <div className="text-center py-3 header">
         <h1 className="text-3xl font-semibold text-slate-700">Services</h1>
         <p className="py-1 text-sm opacity-80">What I Can Offer You.</p>

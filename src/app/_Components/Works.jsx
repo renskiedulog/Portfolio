@@ -4,7 +4,7 @@ import { works } from "../constants";
 
 const Works = () => {
   return (
-    <section id="works" className="min-h-screen pt-[4rem]">
+    <section id="works" className="min-h-screen pt-5">
       <div className="text-center py-3 header opacity-0">
         <h1 className="text-3xl font-semibold text-slate-700">Works</h1>
         <p className="py-1 text-sm opacity-80">The Things That I Made.</p>

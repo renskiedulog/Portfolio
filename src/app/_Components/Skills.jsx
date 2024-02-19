@@ -2,7 +2,7 @@ import BackgroundExp from "./BackgroundExp";
 
 const Skills = () => {
   return (
-    <section id="skills" className="min-h-screen w-full pt-[4rem]">
+    <section id="skills" className="min-h-screen w-full pt-5">
       {/* Top */}
       <div className="text-center py-3 opacity-0 header">
         <h1 className="text-3xl font-semibold text-slate-700">Skills</h1>
