@@ -52,8 +52,8 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="z-50 fixed w-full left-0 top-0 h-16 px-5 bg-[#f9f9f9] border-b border-[#0001]">
-        <div className="flex md:justify-around justify-between px-3 items-center h-full">
+      <nav className="z-50 fixed w-full left-0 md:top-0 bottom-0 md:h-16 h-12 px-5 bg-[#f9f9f9] border-y border-[#0001]">
+        <div className="flex md:justify-around justify-between px-3 items-center h-full font-medium">
           <a
             href="#home"
             className="md:text-xl text-base hover:scale-105 cursor-pointer transition"
@@ -110,70 +110,76 @@ const NavBar = () => {
         </div>
       </nav>
       <div
-        className={`fixed w-2/4 h-screen py-[4rem] bg-[#f9f9f9] border-r border-[#0001] top-0 left-0 z-40 overflow-hidden ${
-          toggle ? "block animation-slide-left" : "hidden"
+        className={`fixed w-full left-0 bg-[#f9f9f9] p-2 border-t border-[#0001] z-40 overflow-hidden ${
+          toggle ? "animation-show" : "animation-fold"
         }`}
       >
-        <li className="flex flex-col items-center md:gap-10 font-normal">
+        <li className="grid grid-cols-3 gap-2 font-normal text-sm">
           <a
             href="#home"
             className={`
               ${activeSection === "home" ? "font-semibold bg-[#0001]" : ""}
-              w-full py-2 text-center hover:scale-105
+              w-full py-2 text-center hover:scale-105 rounded-md
             `}
             onClick={() => setToggle(false)}
           >
-            Home
+            <i class="fa-solid fa-house"></i>
+            <p>Home</p>
           </a>
           <a
             href="#about"
             className={`
               ${activeSection === "about" ? "font-semibold bg-[#0001]" : ""}
-              w-full py-2 text-center hover:scale-105
+              w-full py-2 text-center hover:scale-105 rounded-md
             `}
             onClick={() => setToggle(false)}
           >
-            About
+            <i class="fa-solid fa-user"></i>
+            <p>About</p>
           </a>
           <a
             href="#skills"
             className={`
               ${activeSection === "skills" ? "font-semibold bg-[#0001]" : ""}
-              w-full py-2 text-center hover:scale-105
+              w-full py-2 text-center hover:scale-105 rounded-md
             `}
             onClick={() => setToggle(false)}
           >
-            Skills
+            <i class="fa-solid fa-id-card"></i>
+            <p>Skills</p>
           </a>
           <a
             href="#services"
             className={`
               ${activeSection === "services" ? "font-semibold bg-[#0001]" : ""}
-              w-full py-2 text-center hover:scale-105
+              w-full py-2 text-center hover:scale-105 rounded-md
             `}
             onClick={() => setToggle(false)}
           >
-            Services
+            <i class="fa-solid fa-briefcase"></i>
+            <p>Services</p>
           </a>
           <a
             href="#works"
             className={`
               ${activeSection === "works" ? "font-semibold bg-[#0001]" : ""}
-              w-full py-2 text-center hover:scale-105
+              w-full py-2 text-center hover:scale-105 rounded-md
             `}
             onClick={() => setToggle(false)}
           >
-            Works
+            <i class="fa-solid fa-image"></i>
+            <p>Works</p>
           </a>
           <a
             href="#contact"
             className={`
               ${activeSection === "contact" ? "font-semibold bg-[#0001]" : ""}
-              w-full py-2 text-center hover:scale-105
+              w-full py-2 text-center hover:scale-105 rounded-md
             `}
             onClick={() => setToggle(false)}
           >
-            Contact
+            <i class="fa-solid fa-address-book"></i>
+            <p>Contact</p>
           </a>
         </li>
       </div>

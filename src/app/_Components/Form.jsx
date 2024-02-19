@@ -34,11 +34,11 @@ const Form = () => {
         <textarea
           className="w-full px-4 py-3 bg-transparent outline-none resize-none min-h-40"
           type="text"
-          placeholder="Insert your email"
-          id="form-email"
+          placeholder="Insert your project details"
+          id="form-textarea"
         />
         <label
-          htmlFor="form-email"
+          htmlFor="form-textarea"
           className="text-slate-600 bg-[#f9f9f9] absolute z-10 top-[-12px] px-1 left-3 text-sm"
         >
           Project

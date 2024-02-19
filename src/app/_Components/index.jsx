@@ -1,0 +1,11 @@
+export { default as About } from "./About";
+export { default as BackgroundExp } from "./BackgroundExp";
+export { default as BackToTopButton } from "./BackToTopButton";
+export { default as Contact } from "./Contact";
+export { default as Footer } from "./Footer";
+export { default as Form } from "./Form";
+export { default as Home } from "./Home";
+export { default as NavBar } from "./NavBar";
+export { default as Services } from "./Services";
+export { default as Skills } from "./Skills";
+export { default as Works } from "./Works";

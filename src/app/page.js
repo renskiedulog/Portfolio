@@ -1,10 +1,4 @@
-import NavBar from './_Components/NavBar';
-import Home from './_Components/Home';
-import About from './_Components/About';
-import Skills from './_Components/Skills';
-import Services from './_Components/Services';
-import Works from './_Components/Works';
-import Contact from './_Components/Contact';
+import { About, NavBar, Home, Skills, Services, Works, Contact, BackToTopButton, Footer } from "./_Components";
 
 export default function page() {
   return (
@@ -16,6 +10,8 @@ export default function page() {
       <Services />
       <Works />
       <Contact />
+      <BackToTopButton />
+      <Footer />
     </main>
   );
 }
