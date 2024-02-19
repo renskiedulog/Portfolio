@@ -3,7 +3,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="w-full min-h-screen items-center justify-end flex-col-reverse flex md:flex-row relative active md:translate-y-0 translate-y-[-4rem]"
+      className="w-full min-h-screen items-center justify-end flex-col-reverse flex md:flex-row relative active md:translate-y-0 translate-y-[-2rem]"
     >
       {/* Socials */}
       <div className="socials absolute flex lg:flex-col flex-row top-[5.5rem] lg:top-1/2 translate-x-[-50%] translate-y-[-50%] left-1/2 lg:left-[5%] justify-center opacity-0 max-w-10 items-center lg:gap-5 gap-7 text-lg">
