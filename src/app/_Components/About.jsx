@@ -37,9 +37,10 @@ const About = () => {
 
           <h1 className="mt-5 text-xl font-medium">Short Description</h1>
           <p className="opacity-80 mb-5">
-            Frontend Developer, I create web pages with UI/UX user interface, I
-            have years of experience and many clients are happy with the
-            projects carried out.
+            I have been passionate about tech for almost 15 years, 2 years ago I
+            discovered about Web Development and quickly became fond of it. It
+            has been my dream to contribute to the internet and bring beautiful
+            and functional websites for the whole world to see.
           </p>
         </div>
       </div>

@@ -13,15 +13,20 @@ const Skills = () => {
         {/* Left */}
         <div className="md:w-[48%] w-10/12 md:my-0 my-10 skills-info opacity-0">
           <h1 className="text-3xl">
-            UI / UX <span className="font-bold">Designer</span> & Web Developer.
+            <span className="font-bold">Front-End</span> Web Developer.
           </h1>
           <p className="my-5 opacity-80">
-            Lorem ipsum is placeholder text commonly used in the graphic, print,
-            and publishing industries for previewing layouts and visual mockups.
+            I seamlessly integrate both frontend and backend expertise. On the
+            frontend, I craft visually appealing and user-friendly interfaces.
+            Simultaneously, on the backend, I build robust server-side
+            architecture and database systems, ensuring smooth functionality.
+            With a holistic approach, I create comprehensive web solutions that
+            not only look stunning but also operate seamlessly for an
+            exceptional user experience.
           </p>
           <div className="flex gap-1 gap-y-2 flex-wrap">
             <div className="w-28 border-r border-[#0001] md:pl-2 pl-1">
-              <h1 className="font-bold md:text-xl text-base">13+</h1>
+              <h1 className="font-bold md:text-xl text-base">14+</h1>
               <p className="uppercase mt-2 md:text-base text-xs">
                 Years of Passion
               </p>

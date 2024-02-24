@@ -93,7 +93,11 @@ const NavBar = () => {
             </a>
             <a
               href="#contact"
-              className={activeSection === "contact" ? "font-semibold" : ""}
+              className={
+                activeSection === "contact" || activeSection === "footer"
+                  ? "font-semibold"
+                  : ""
+              }
             >
               Contact
             </a>
@@ -173,7 +177,11 @@ const NavBar = () => {
           <a
             href="#contact"
             className={`
-              ${activeSection === "contact" ? "font-semibold bg-[#0001]" : ""}
+              ${
+                activeSection === "contact" || activeSection === "footer"
+                  ? "font-semibold bg-[#0001]"
+                  : ""
+              }
               w-full py-2 text-center hover:scale-105 rounded-md
             `}
             onClick={() => setToggle(false)}

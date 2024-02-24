@@ -13,11 +13,12 @@ const Contact = () => {
             Talk to me
           </h1>
           <div className="flex flex-col gap-2 bg-white min-h-40 w-3/4 mx-auto rounded-md px-3 py-2 shadow mt-5 justify-center items-center">
-            <i className="fa-regular fa-envelope text-2xl"></i>
-            <h2 className="font-medium">Email</h2>
-            <p className="opacity-70">renrendulog@gmail.com</p>
+            <i className="fa-solid fa-envelope text-2xl"></i>
+            <h2 className="font-medium">Email Address</h2>
+            <p className="opacity-70 text-sm">renrendulog@gmail.com</p>
             <a
-              href="#"
+              href="mailto:?to=renrendulog@gmail.com&subject=Your%20Topic&body=Hello,%20%0A%0AWhat%20can%20we%20talk%20about%3F"
+              target="_blank"
               className="opacity-50 flex gap-2 items-center group hover:opacity-70"
             >
               <p>Write Me</p>
@@ -25,26 +26,26 @@ const Contact = () => {
             </a>
           </div>
           <div className="flex flex-col gap-2 bg-white min-h-40 w-3/4 mx-auto rounded-md px-3 py-2 shadow mt-5 justify-center items-center">
-            <i className="fa-regular fa-envelope text-2xl"></i>
-            <h2 className="font-medium">Email</h2>
-            <p className="opacity-70">renrendulog@gmail.com</p>
+            <i className="fa-solid fa-phone-volume text-2xl"></i>
+            <h2 className="font-medium">Contact Number</h2>
+            <p className="opacity-70">+639919016500</p>
             <a
-              href="#"
+              href="tel:+639919016500"
               className="opacity-50 flex gap-2 items-center group hover:opacity-70"
             >
-              <p>Write Me</p>
+              <p>Call Me</p>
               <i className="fa-solid fa-arrow-right text-xs group-hover:translate-x-2 transition"></i>
             </a>
           </div>
           <div className="flex flex-col gap-2 bg-white min-h-40 w-3/4 mx-auto rounded-md px-3 py-2 shadow mt-5 justify-center items-center">
-            <i className="fa-regular fa-envelope text-2xl"></i>
-            <h2 className="font-medium">Email</h2>
-            <p className="opacity-70">renrendulog@gmail.com</p>
+            <i className="fa-brands fa-discord text-2xl"></i>
+            <h2 className="font-medium">Discord</h2>
+            <p className="opacity-70">renskiedulog#8212</p>
             <a
-              href="#"
+              href="https://discordapp.com/users/renskiedulog#8212"
               className="opacity-50 flex gap-2 items-center group hover:opacity-70"
             >
-              <p>Write Me</p>
+              <p>Let's Talk</p>
               <i className="fa-solid fa-arrow-right text-xs group-hover:translate-x-2 transition"></i>
             </a>
           </div>
