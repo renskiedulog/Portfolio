@@ -45,7 +45,7 @@ const Contact = () => {
               href="https://discordapp.com/users/renskiedulog#8212"
               className="opacity-50 flex gap-2 items-center group hover:opacity-70"
             >
-              <p>Let's Talk</p>
+              <p>Let&apos;s Talk</p>
               <i className="fa-solid fa-arrow-right text-xs group-hover:translate-x-2 transition"></i>
             </a>
           </div>
