@@ -4,7 +4,7 @@ const Form = () => {
     <form>
       <div className="my-5 outline outline-1 w-3/4 mx-auto rounded-md outline-slate-400 relative opacity-70 focus-within:opacity-100">
         <input
-          className="w-full px-4 py-3 bg-transparent outline-none"
+          className="w-full px-4 py-3 bg-transparent overflow-hidden focus:outline-1 focus:outline-slate-400"
           type="text"
           placeholder="Insert your name"
           id="form-name"
@@ -18,7 +18,7 @@ const Form = () => {
       </div>
       <div className="my-10 outline outline-1 w-3/4 mx-auto rounded-md outline-slate-400 relative opacity-70 focus-within:opacity-100">
         <input
-          className="w-full px-4 py-3 bg-transparent outline-none"
+          className="w-full px-4 py-3 bg-transparent overflow-hidden focus:outline-1 focus:outline-slate-400"
           type="text"
           placeholder="Insert your email"
           id="form-email"
@@ -30,9 +30,9 @@ const Form = () => {
           Email
         </label>
       </div>
-      <div className="mt-10 outline outline-1 w-3/4 mx-auto rounded-md outline-slate-400 relative opacity-70 focus-within:opacity-100">
+      <div className="mt-10 w-3/4 mx-auto relative opacity-70 focus-within:opacity-100">
         <textarea
-          className="w-full px-4 py-3 bg-transparent outline-none resize-none min-h-40"
+          className="w-full px-4 py-3 bg-transparent rounded-md focus:outline-2 outline outline-1 outline-slate-400 focus:outline-slate-400 resize-none min-h-40"
           type="text"
           placeholder="Insert your project details"
           id="form-textarea"

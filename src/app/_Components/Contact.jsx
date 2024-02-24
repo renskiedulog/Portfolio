@@ -17,7 +17,7 @@ const Contact = () => {
             <h2 className="font-medium">Email Address</h2>
             <p className="opacity-70 text-sm">renrendulog@gmail.com</p>
             <a
-              href="mailto:?to=renrendulog@gmail.com&subject=Your%20Topic&body=Hello,%20%0A%0AWhat%20can%20we%20talk%20about%3F"
+              href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=renrendulog@gmail.com&tf=1"
               target="_blank"
               className="opacity-50 flex gap-2 items-center group hover:opacity-70"
             >
@@ -43,6 +43,7 @@ const Contact = () => {
             <p className="opacity-70">renskiedulog#8212</p>
             <a
               href="https://discordapp.com/users/renskiedulog#8212"
+              target="_blank"
               className="opacity-50 flex gap-2 items-center group hover:opacity-70"
             >
               <p>Let&apos;s Talk</p>

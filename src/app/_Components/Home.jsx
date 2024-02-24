@@ -8,19 +8,23 @@ const Home = () => {
       {/* Socials */}
       <div className="socials z-10 absolute flex lg:flex-col flex-row top-[4.5rem] lg:top-1/2 translate-x-[-50%] translate-y-[-50%] left-1/2 lg:left-[5%] justify-center opacity-0 max-w-10 items-center lg:gap-5 gap-7 text-xl">
         <a
-          href="#"
+          href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=renrendulog@gmail.com&tf=1"
+          target="_blank"
           className="fa-brands fa-google hover:scale-105 transition"
         ></a>
         <a
           href="https://www.facebook.com/renatodulog.27"
+          target="_blank"
           className="fa-brands fa-facebook-f hover:scale-105 transition"
         ></a>
         <a
           href="https://discordapp.com/users/renskiedulog#8212"
+          target="_blank"
           className="fa-brands fa-discord hover:scale-105 transition"
         ></a>
         <a
           href="https://github.com/renskiedulog"
+          target="_blank"
           className="fa-brands fa-github hover:scale-105 transition"
         ></a>
       </div>
