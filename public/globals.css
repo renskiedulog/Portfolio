@@ -16,14 +16,14 @@ body {
 }
 
 .me {
-  mask-image: url("../../public/images/mask-1.png");
+  mask-image: url("./images/mask-1.png");
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: contain;
   filter: grayscale(0.8);
 }
 .about-me {
-  mask-image: url("../../public/images/mask-2.png");
+  mask-image: url("./images/mask-2.png");
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: cover;

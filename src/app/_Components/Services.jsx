@@ -61,7 +61,7 @@ const Services = () => {
         </button>
       </div>
       {displayed !== null && (
-        <div className="opacity-0 pop-up fixed w-4/5 h-4/5 bg-white shadow border border-[#0001] overflow-y-auto top-1/2 left-1/2 translate-x-[-50%] translate-y-[-45%] rounded-md md:px-5 px-2 md:py-3 py-2 md:pt-0 pt-5 scrollbar">
+        <div className="opacity-0 pop-up fixed w-4/5 h-4/5 bg-white z-50 shadow border border-[#0001] overflow-y-auto top-1/2 left-1/2 translate-x-[-50%] -translate-y-[55%] md:-translate-y-[45%] rounded-md md:px-5 px-2 md:py-3 py-2 md:pt-0 pt-5 scrollbar">
           <i
             className="fa-solid fa-x absolute top-3 right-4 text-sm cursor-pointer hover:scale-105 z-40"
             onClick={() => setDisplayed(null)}
