@@ -37,5 +37,13 @@ export const works = [
         stacks: ["Next JS", "Tailwind CSS"],
         repository: "https://github.com/renskiedulog/Portfolio",
         url: "https://portfolio-mu-ruddy.vercel.app",
+    }, 
+    {
+        image: "/images/mangasensei.png",
+        title: "MangaSensei",
+        description: "Embark on an adventure with MangaMasters, a serene sanctuary for manga devotees. Dive into a distraction-free reading realm, where the freshest releases burst forth, providing uninterrupted bliss in the manga universe.",
+        stacks: ["Next JS", "Tailwind CSS"],
+        repository: "https://github.com/renskiedulog/MangaSenseiPro",
+        url: "https://manga-sensei-pro.vercel.app",
     },
 ];
