@@ -11,21 +11,25 @@ const Home = () => {
           href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=renrendulog@gmail.com&tf=1"
           target="_blank"
           className="fa-brands fa-google hover:scale-105 transition"
+          aria-label="google-icon"
         ></a>
         <a
           href="https://www.facebook.com/renatodulog.27"
           target="_blank"
           className="fa-brands fa-facebook-f hover:scale-105 transition"
+          aria-label="facebook-icon"
         ></a>
         <a
           href="https://discordapp.com/users/renskiedulog#8212"
           target="_blank"
           className="fa-brands fa-discord hover:scale-105 transition"
+          aria-label="discord-icon"
         ></a>
         <a
           href="https://github.com/renskiedulog"
           target="_blank"
           className="fa-brands fa-github hover:scale-105 transition"
+          aria-label="github-icon"
         ></a>
       </div>
       {/* Hero Description */}

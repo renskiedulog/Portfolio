@@ -23,14 +23,17 @@ const Footer = () => {
       <div className="flex justify-center md:gap-5 gap-3">
         <a
           href="https://www.facebook.com/renatodulog.27"
+          aria-label="facebook-icon"
           className="fa-brands fa-facebook-f text-white bg-slate-700 w-10 aspect-square flex justify-center items-center hover:scale-105 rounded-md shadow-md"
         ></a>
         <a
           href="https://discordapp.com/users/renskiedulog#8212"
+          aria-label="discord-icon"
           className="fa-brands fa-discord text-white bg-slate-700 w-10 aspect-square flex justify-center items-center hover:scale-105 rounded-md shadow-md"
         ></a>
         <a
           href="https://github.com/renskiedulog"
+          aria-label="github-icon"
           className="fa-brands fa-github text-white bg-slate-700 w-10 aspect-square flex justify-center items-center hover:scale-105 rounded-md shadow-md"
         ></a>
       </div>

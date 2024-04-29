@@ -60,7 +60,7 @@ const NavBar = () => {
           >
             Ren.
           </a>
-          <li className="md:flex hidden items-center md:gap-10 gap-2 font-normal">
+          <div className="md:flex hidden items-center md:gap-10 gap-2 font-normal">
             <a
               href="#home"
               className={activeSection === "home" ? "font-semibold" : ""}
@@ -101,7 +101,7 @@ const NavBar = () => {
             >
               Contact
             </a>
-          </li>
+          </div>
           <i
             ref={ref}
             className={
@@ -118,7 +118,7 @@ const NavBar = () => {
           toggle ? "animation-show" : "animation-fold"
         }`}
       >
-        <li className="grid grid-cols-3 gap-2 font-normal text-sm">
+        <div className="grid grid-cols-3 gap-2 font-normal text-sm">
           <a
             href="#home"
             className={`
@@ -189,7 +189,7 @@ const NavBar = () => {
             <i className="md:text-lg text-base fa-solid fa-address-book"></i>
             <p>Contact</p>
           </a>
-        </li>
+        </div>
       </div>
     </>
   );
