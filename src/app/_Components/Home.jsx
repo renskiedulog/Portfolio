@@ -6,7 +6,7 @@ const Home = () => {
       className="w-full min-h-screen items-center justify-end flex-col-reverse flex md:flex-row relative active md:translate-y-0 translate-y-[-2rem]"
     >
       {/* Socials */}
-      <div className="socials z-10 absolute flex lg:flex-col flex-row top-[4.5rem] lg:top-1/2 translate-x-[-50%] translate-y-[-50%] left-1/2 lg:left-[5%] justify-center opacity-0 max-w-10 items-center lg:gap-5 gap-7 text-xl">
+      <div className="socials z-10 absolute flex lg:flex-col flex-row top-[5.2rem] lg:top-1/2 translate-x-[-50%] translate-y-[-50%] left-1/2 lg:left-[5%] justify-center opacity-0 max-w-10 items-center lg:gap-5 gap-7 text-xl">
         <a
           href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=renrendulog@gmail.com&tf=1"
           target="_blank"
@@ -49,7 +49,7 @@ const Home = () => {
         </a>
       </div>
       <Image
-        src="/images/me.jpg"
+        src="/images/me.webp"
         alt="me"
         width={500}
         height={200}

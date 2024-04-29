@@ -11,7 +11,7 @@ const About = () => {
       <div className="flex gap-5 mt-10 md:justify-around md:flex-row flex-col items-center">
         <div>
           <Image
-            src="/images/about.jpg"
+            src="/images/about.webp"
             alt="my-picture"
             height={350}
             width={350}
