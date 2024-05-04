@@ -20,7 +20,7 @@ const NavBar = () => {
     const observerOptions = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.38, // Adjust the threshold as needed
+      threshold: 0.35, // Adjust the threshold as needed
     };
 
     const observer = new IntersectionObserver(
