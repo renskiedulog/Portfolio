@@ -34,7 +34,7 @@ const BackToTopButton = () => {
           onClick={scrollToTop}
           className="md:block hidden fixed md:bottom-5 md:right-5 bottom-10 right-3 px-3 py-2 z-50 rounded-md shadow-md text-white hover:scale-105 bg-slate-700 transition"
         >
-          <i class="fa-solid fa-arrow-up"></i>
+          <i className="fa-solid fa-arrow-up"></i>
         </button>
       )}
     </div>

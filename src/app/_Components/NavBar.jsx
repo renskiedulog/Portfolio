@@ -20,7 +20,7 @@ const NavBar = () => {
     const observerOptions = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.5, // Adjust the threshold as needed
+      threshold: 0.38, // Adjust the threshold as needed
     };
 
     const observer = new IntersectionObserver(
@@ -42,6 +42,7 @@ const NavBar = () => {
       if (entry.isIntersecting) {
         setActiveSection(entry.target.id);
         entry.target.classList.add("active");
+        console.log(entry.target)
       }
     });
   };
