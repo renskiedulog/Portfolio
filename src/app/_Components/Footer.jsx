@@ -27,7 +27,7 @@ const Footer = () => {
           className="fa-brands fa-facebook-f text-white bg-slate-700 w-10 aspect-square flex justify-center items-center hover:scale-105 rounded-md shadow-md"
         ></a>
         <a
-          href="https://discordapp.com/users/renskiedulog#8212"
+          href="https://discordapp.com/users/901746145095712768"
           aria-label="discord-icon"
           className="fa-brands fa-discord text-white bg-slate-700 w-10 aspect-square flex justify-center items-center hover:scale-105 rounded-md shadow-md"
         ></a>

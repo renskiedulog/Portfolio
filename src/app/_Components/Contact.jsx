@@ -42,7 +42,7 @@ const Contact = () => {
             <h2 className="font-medium">Discord</h2>
             <p className="opacity-70">renskiedulog#8212</p>
             <a
-              href="https://discordapp.com/users/renskiedulog#8212"
+              href="https://discordapp.com/users/901746145095712768"
               target="_blank"
               className="opacity-50 flex gap-2 items-center group hover:opacity-70"
             >

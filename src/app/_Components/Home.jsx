@@ -20,7 +20,7 @@ const Home = () => {
           aria-label="facebook-icon"
         ></a>
         <a
-          href="https://discordapp.com/users/renskiedulog#8212"
+          href="https://discordapp.com/users/901746145095712768"
           target="_blank"
           className="fa-brands fa-discord hover:scale-105 transition"
           aria-label="discord-icon"
