@@ -28,6 +28,7 @@ export const works = [
         stacks: ["Next JS", "Tailwind CSS", "Consumet API"],
         repository: "https://github.com/renskiedulog/AnimeSenseiPro",
         url: "https://anime-sensei-pro.vercel.app",
+        live: false,
     },
     {
         image: "/images/portfolio.webp",
@@ -37,6 +38,7 @@ export const works = [
         stacks: ["Next JS", "Tailwind CSS"],
         repository: "https://github.com/renskiedulog/Portfolio",
         url: "https://portfolio-mu-ruddy.vercel.app",
+        live: true,
     },
     {
         image: "/images/mangasensei.webp",
@@ -45,5 +47,6 @@ export const works = [
         stacks: ["Next JS", "Tailwind CSS", "MangaDex API", "Shadcn UI"],
         repository: "https://github.com/renskiedulog/MangaSenseiPro",
         url: "https://manga-sensei-pro.vercel.app",
+        live: false,
     },
 ];
